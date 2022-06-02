@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus',serif;
+}
+*{
+    text-decoration: none;
+}
+
+.container{
+    padding: 0 4rem;
+}
+header{
+    padding: 30px 0;
+    width: 100%;
+    position: fixed;
+    
+}
+header .all-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .nav-left{
+    width: 10%;
+}
+header .nav-left img{
+    width: 100%;
+}
+header .nav-center{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+header .nav-center a{
+    padding: 0 23px;
+    color: #fff;
+}
+header .right i{
+    padding-left: 25px;
+}
+
+#phone-navbar {
+    display: none;
+}
+#phone-navbar  .all{
+    padding: 20px 2rem;
+}
+#phone-navbar .ph-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#phone-navbar .right img{
+    width: 45%;
+}
+
+@media (max-width:576px) {
+    header{
+        display: none;
+    }
+    .container{
+       padding:  0 2rem;
+    }
+    #phone-navbar{
+        display: block;
+    }
+}
+
+
+#first{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+         
+}
+
+#first .first-all{
+    padding: 7rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first .first-all .left{
+    width: 33%;
+}
+
+#first .first-all .right{
+    width: 65%;
+}
+
+#first .first-all .right img{
+    margin:0 0 20px 25rem;
+    
+}
+
+#first .first-all .right h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+
+}
+
+#first .first-all .right p{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 80px;
+    line-height: 33px;
+    font-weight: 300;
+    
+}
+#first .first-all .right a{
+    background: transparent;
+    margin-left: 25rem;
+    border: 1px solid #fff;
+    padding: 23px 50px;
+    font-size: 14px;
+
+}
+
+#first .first-all .right a span{
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 3px;
+
+}
+
+#Second{
+    height: 90vh;
+
+}
+
+#Second .top{
+    width: 35%;
+    margin: 120px auto;
+}
+
+#Second .top h1{
+    text-align: center;
+    color: #262626e5;
+    font-size: 45px;
+    font-weight: 100;
+    
+}
+
+#Second .top img{
+    margin: 13px 0 22px 140px;
+}
+
+#Second .top p{
+    font-size: 20px;
+    color: #26262666;
+    margin: 10px 0;
+    line-height: 26px;
+    font-weight: 300;
+
+}
+
+#Second .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+} 
+
+#Second .bottom .box{
+    width: 24%;
+    text-align: center;
+    margin: -60 40 0px;
+
+    
+
+}
+
+#Second .bottom .box .text span{
+    font-size: 20px;
+    color: #262626;
+    
+
+}
+
+#Second .bottom .box .text p{
+    font-size: 15px;
+    color: #26262666;
+    margin: 10px 0;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+#third{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    height: 140vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0;
+
+}
+
+#third .top{
+    width: 35%;
+    margin: 120px auto;
+}
+
+#third .top h1{
+    text-align:center;
+    color: #262626e5;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    
+}
+
+#third .top img{
+    margin: 13px 0 22px 140px;
+}
+
+#third .top p{
+    font-size: 20px;
+    color: #26262666;
+    margin: 10px 0;
+    line-height: 26px;
+    font-weight: 300;
+
+}
+
+#third .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#third .bottom .box{
+    margin-top: -40px; 
+    width: 30%;
+}
+#third .bottom .box .foto img{
+    width: 100%;
+}
+
+#third .bottom .box .text h5{
+    color: #262626;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+#third .bottom .box .text p{
+    font-size: 15px; 
+    color: #26262666;
+    margin: 10px 0;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+    #four{
+        background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+        background-attachment: fixed;
+        padding: 8rem 0;
+        margin: 5rem 0 ;
+    
+    }
+    
+    #four .foto{
+        width: 20%;
+        margin: 10px auto;
+    }
+    
+    #five{
+        margin: 5rem 0;
+    }
+    
+    #five .text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    
+    }
+    
+    #five .text .box{
+        width: 24%;
+        text-align: center;
+        margin: 0 50px;
+    
+    }
+    
+    #five .text .box span{
+        color: #be9c79;
+        font-size: 55px;
+    
+    
+    }
+    
+    #five .text .box h5{
+        color: #262626;
+        font-size: 20px;
+        margin: 30px 0 10px;
+        font-weight: 300;
+    }
+    
+    #five .text .box p{
+        color: #656565;
+        font-size: 15px;
+        line-height: 30px;
+        font-weight: 300;
+    
+    }
+    
+    #six{
+        background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+        padding: 1rem 0 10rem;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    
+    
+    #six .top{
+        width: 35%;
+        margin: 120px auto;
+    }
+    
+    #six .top h1{
+        text-align: center;
+        color: #262626e5;
+        font-size: 45px;
+        font-weight: 100;
+        
+    }
+    
+    #six .top img{
+        margin: 13px 0 22px 140px;
+    }
+    
+    #six .top p{
+        font-size: 20px;
+        color: #26262666;
+        margin: 10px 0;
+        line-height: 26px;
+        font-weight: 300;
+    
+    }
+    
+    #six .bottom{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    #six .bottom .box{
+        width: 18%;
+        text-align: center;
+        
+    }
+    
+    #six .bottom .box .foto img{
+        width: 100%;
+    }
+    
+    #six .bottom .box .text{
+        text-align: center;
+    }
+    
+    #six .bottom .box .text h5{
+        font-size: 20px;
+        color: #262626;
+        font-weight: 200; 
+        margin: 20px 0 10px;
+    
+    }
+    
+    #six .bottom .box .text span{
+        font-size: 18px;
+        color: #777777;
+        font-weight: 200;
+                                                                                                                                                                                                           
+    }
+    
+    #seven{
+        height: 180vh;
+    
+    }
+    
+    #seven .top{
+        width: 35%;
+        margin: 120px auto;
+    }
+    
+    #seven .top h1{
+        text-align: center;
+        color: #262626e5;
+        font-size: 45px;
+        font-weight: 100;
+        
+    }
+    
+    #seven .top img{
+        margin: 13px 0 22px 140px;
+    }
+    
+    #seven .top p{
+        font-size: 20px;
+        color: #26262666;
+        margin: 10px 0;
+        line-height: 26px;
+        font-weight: 300;
+    
+    }
+    
+    #seven .bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    #seven .bottom .foto{
+        width: 23%;
+        margin: 10px;
+    
+    }
+    
+    #seven .bottom .foto img{
+        width: 100%;
+    
+    }
+    
+    #seven .icon-foto{
+        display: flex;
+        justify-content: space-between;
+        padding: 4rem 0;
+    }
+    
+    #seven .icon-foto .icon{
+        width: 17%;
+    
+    }
+    
+    #seven .icon-foto .icon img{
+        width: 100%;
+    }
+    
+    #eight{
+        background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+        height: 25vh;
+    
+    }
+    
+    #eight .box{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 78px 2rem;
+    }
+    
+    #eight .box .left p{
+        color: #262626;
+        font-size: 20px;
+    
+    }
+    
+    #eight .box .right a{
+        padding: 19px 35px;
+        background-color: #be9c79;
+    }
+    
+    #eight .box .right span{
+        font-size: 12px;
+        color: #ffffff;
+        font-weight: 600;
+    
+    }
